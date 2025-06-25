@@ -255,3 +255,14 @@ main .section.highlight {
   margin: 0;
   padding: 40px 0;
 }
+
+main .section.dark{
+  background-color: var(--dark-color);
+  color: var(--light-color);
+}
+main .section.dark  .cards li{
+  background-color: #404040; 
+  color: var(--light-color); 
+  border: 1px solid var(--light-color);
+  margin: 10px;
+}
